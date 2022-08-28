@@ -18,13 +18,17 @@ a {
 
 .header {
     grid-area: header;
-    background-color: #FDB600;
+    background-color: #ffc107;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0px 15px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
+.hed_img{
+    height: 40px;
+}
+/*
 .header div img {
     height: 80px;
     animation: pulsing 0.5s 1;
@@ -50,14 +54,14 @@ a {
 
 .header nav ul li:hover {
     background-size: 100% 100%;
-}
+}*/
 
 /*INDEX*/
 
 .container_index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 33.32vh 11vh auto 11vh auto 11vh;
+    grid-template-rows: 25vh 11vh auto 11vh auto 11vh;
     grid-template-areas:
         "header header header header"
         "Section1 Section1 Section1 Section1"
@@ -423,7 +427,7 @@ textarea {
 
     /*HEADER*/
 
-    .header {
+    /*.header {
         align-items: flex-end;
     }
 
@@ -441,7 +445,7 @@ textarea {
         background-color: #fdcb00;
         padding: 5px;
         margin: 5px;
-    }
+    }*/
 
     /*INDEX*/
 
@@ -518,7 +522,7 @@ textarea {
 
     /*HEADER*/
 
-    .header nav ul li {
+    /*.header nav ul li {
         background-color: #fdcb00;
         padding: 5px;
         margin: 5px 15px 5px 15px;
@@ -526,7 +530,7 @@ textarea {
 
     .header div img {
         height: auto;
-    }
+    }*/
 
     /*INDEX*/
 
